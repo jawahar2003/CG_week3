@@ -5,6 +5,7 @@ abstract class Product {
     private int productId, price;
     private String name;
 
+    
     Product(int productId,int price, String name) {
         this.productId = productId;
         this.name = name;
