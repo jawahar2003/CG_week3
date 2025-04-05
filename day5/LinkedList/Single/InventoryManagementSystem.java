@@ -5,6 +5,7 @@ class LL{
     public LL(){
         this.size = 0;
     }
+    
     public void insertFirst(String itemName, int itemId, int quantity, int price){
         ItemNode node = new ItemNode(itemName, itemId, quantity, price);
         node.next = head;
