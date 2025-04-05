@@ -12,6 +12,7 @@ abstract class Employee implements Department{
     private String name;
 
     
+    
     Employee(int employeeId, int baseSalary, int workingHours, String name) {
         this.employeeId = employeeId;
         this.baseSalary = baseSalary;
